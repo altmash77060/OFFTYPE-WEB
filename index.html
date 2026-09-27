@@ -18,22 +18,25 @@
     <header class="header">
         <nav class="navbar">
 
-            <a href="#home" class="logo">
-                
-                OFF<span>TYPE</span>
-            </a>
+    <a href="#home" class="logo">
+        OFF<span>TYPE</span>
+    </a>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
 
-            <a href="#contact" class="nav-btn">Get a Quote</a>
+    <a href="#contact" class="nav-btn">Get a Quote</a>
 
-        </nav>
+    <button class="menu-toggle" id="menuToggle">
+        ☰
+    </button>
+
+</nav>
     </header>
     <!-- Navbar End -->
      <!-- Hero Section Start -->
@@ -296,6 +299,7 @@
 
 </section>
 <!-- Process Section End -->
+
  <!-- Why OFFTYPE Start -->
 <section class="why-offtype" id="why">
 
@@ -343,9 +347,223 @@
         </div>
 
     </div>
+    
 
 </section>
 <!-- Why OFFTYPE End -->
-</body>
+  <!-- Contact Section Start -->
+<section class="contact" id="contact">
 
+    <div class="section-heading">
+        <p>GET IN TOUCH</p>
+        <h2>LET'S <span>CREATE</span> SOMETHING GREAT.</h2>
+    </div>
+
+    <div class="contact-container">
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+
+            <p class="contact-intro">
+                Have a project in mind? Tell us what you need
+                and let's turn your idea into something memorable.
+            </p>
+
+            <div class="contact-details">
+
+                <div class="contact-item">
+                    <div class="contact-icon">01</div>
+                    <div>
+                        <span>LOCATION</span>
+                        <h3>Lucknow, Uttar Pradesh</h3>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">02</div>
+                    <div>
+                        <span>PHONE</span>
+                        <h3>8840078052</h3>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">03</div>
+                    <div>
+                        <span>EMAIL</span>
+                        <h3>shayankh0483@gmail.com</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+
+            <form>
+
+                <div class="form-group">
+                    <label for="name">YOUR NAME</label>
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">EMAIL ADDRESS</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="service">SERVICE</label>
+
+                    <select id="service" required>
+                        <option value="">Select a service</option>
+                        <option>Logo Design</option>
+                        <option>Social Media Design</option>
+                        <option>Branding & Identity</option>
+                        <option>Poster & Flyer</option>
+                        <option>Brochure & Menu</option>
+                        <option>Photo & Video Editing</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">MESSAGE</label>
+
+                    <textarea
+                        id="message"
+                        rows="5"
+                        placeholder="Tell us about your project..."
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="contact-btn">
+                    SEND INQUIRY <span>→</span>
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Contact Section End -->
+ <!-- Footer Start -->
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+
+            <a href="#home" class="footer-logo">
+                OFF<span>TYPE</span>
+            </a>
+
+            <p>
+                Creative design solutions for brands,
+                businesses and creators.
+            </p>
+
+            <p class="footer-location">
+                Based in Lucknow, India.
+            </p>
+
+        </div>
+
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+
+            <h3>QUICK LINKS</h3>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+
+
+        <!-- Services -->
+        <div class="footer-column">
+
+            <h3>SERVICES</h3>
+
+            <ul>
+                <li><a href="#services">Logo Design</a></li>
+                <li><a href="#services">Branding & Identity</a></li>
+                <li><a href="#services">Social Media Design</a></li>
+                <li><a href="#services">Poster & Flyer</a></li>
+                <li><a href="#services">Photo & Video Editing</a></li>
+            </ul>
+
+        </div>
+
+
+        <!-- Contact -->
+        <div class="footer-column footer-contact">
+
+            <h3>GET IN TOUCH</h3>
+
+            <a href="tel:8840078052">
+                8840078052
+            </a>
+
+            <a href="mailto:shayankh0483@gmail.com">
+                shayankh0483@gmail.com
+            </a>
+
+            <p>
+                Lucknow, Uttar Pradesh
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer Bottom -->
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 OFFTYPE Design Studio. All Rights Reserved.
+        </p>
+
+        <p>
+            Designed by <span>OFFTYPE</span>
+        </p>
+
+    </div>
+
+</footer>
+<!-- Footer End -->
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/917706052815?text=Hi%20OFFTYPE%20Design%20Studio,%20I%20want%20to%20discuss%20a%20design%20project."
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Chat with OFFTYPE on WhatsApp">
+
+    <span class="whatsapp-icon">☏</span>
+</a>
+</body>
+<script src="script.js"></script>
 </html>
